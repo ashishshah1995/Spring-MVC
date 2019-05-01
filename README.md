@@ -86,7 +86,9 @@ In case of Free passes field if the user enters String instead of integer then b
 
 #### Development process for custom Validation
 1. Create custom validation rule
+
 a - Create @CourseCode annotation
+
 b- Create CourseCodeConstraintValidator
 2. Add validation rule to customer class
 3. Display error messsages on html form
