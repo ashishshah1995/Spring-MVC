@@ -26,24 +26,36 @@
 
 # Classes
 
-## Hello World clas
+## Hello World class
 
-1. Creating Spring home controller and view
-2. Reading html form data (using @RequestParam) will read req parameter and binds to var name
-3. Adding data to spring model
+1. Created Spring home controller and view
+2. Reading html form data (using *@RequestParam)*  which will read request parameter and binds to variable name
+3. Added data to spring model
+
+### Creating controller
+1. Create controller class (@Controller)
+2. Define controller method
+3. Add request mapping to controller method (@RequestMapping)
+4. Return view name
+5. Develop view page
+
+### Reading Form data with Spring MVC
+1. Create student class 
+2. Create student controller class
+3. Create html form
+4. Create from processing code
+5. Create confirmation page
 
 ## Student class
 
-1. Spring MVC form tags- support data binding
+1. Used form tags which support data binding
 
-2. Model attribute is bean that will hold form data and give support for data binding
+2. *@ModelAttribute* is bean object to bind form data to java objects
 
-3. path in html (eg path="firstName";) when form is loaded spring mvc will call student.getFirstName() to populate form field, if null then field will be empty,  when form is submitted spring will call setter methods
-student.getFirstName
+3. Example of *path* 
+In jsp page if there is *path="firstName";*  then when form is loaded Spring MVC will call student.getFirstName() to populate form field, if null then field will be empty,  when form is submitted spring will call setter method student.setFirstName()
 
-4. @ModelAttribute to bind form data to java objects
-
-### Used the following Spring MVC form tags
+### Following Spring MVC form tags are used 
 
 1. Drop down list
 
@@ -53,51 +65,28 @@ student.getFirstName
 
 ## Customer class
 
-### Used the following Hibernate form validation 
+### Following Hibernate form validation are used
 
 1. Required fields
-2. Validate number range (Min , Max)
-3. Validate using reg exp
+2. Validation number range (Min , Max)
+3. Validation using regular expression
 4. Custom validation
 
-@InitBinder- works as pre processor. Every web request that process through controller this code will execute 1st
 
-Custom error message for free passes
-
-#### Development process for custom Validation
-1. Create custom validation rule
-a - Create @CourseCode annotation
-b- Create CourseCodeConstraintValidator
-2. add validation rule to customer class
-3. display error messsages on html form
-4. update confirmation pagr
-
-
-
-# Creating controller
-1. Create controller class (@Controller)
-2. Define controller method
-3. Add request mapping to controller method (@RequestMapping)
-4. Return view name
-5. Develop view page
-
-
-# Read Form data with Spring MVC
-1. Create student class 
-2. Create student controller class
-3. Create html form
-4. Create from processing code
-5. Create confirmation page
-HelloWorld Controller has 2 request mapping /showForm /processForm
-
-# Adding Validation
-## Developmnet process
+### Adding Validation
+### Development process
 1. Add validation rule to customer class
 2. Display error message to html forms
 3. Perform validation to controller class
 4. Update confirmation page
 
-To validate customer last name without white spaces we use @InitBiner annotation works as a pre processor
-It will pre process each web request to our controller. We will use this to trim out string, removing leading and trailing white space, if string has whitespace  we trim it to null object
+In case of Free passes field if the user enters String instead of integer then by using *@InitBinder* I created custom error message *@InitBinder* works as pre processor. Every web request that process through controller this code will execute first. We will use this to trim out string, removing leading and trailing white space, if string has whitespace  we trim it to null object
 
-custom validation
+#### Development process for custom Validation
+1. Create custom validation rule
+a - Create @CourseCode annotation
+b- Create CourseCodeConstraintValidator
+2. Add validation rule to customer class
+3. Display error messsages on html form
+4. Update confirmation page
+
