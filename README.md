@@ -2,7 +2,7 @@
 
 1. Framework for building web application.
 2. Based on Model view controller design
-3. It leverages features of core spring framework (IOC,DI)
+3. It leverages features of core spring framework (Inversion of Control, Dependency Injection)
 
 ## Spring MVC benefits
 1. The spring way of building web application UI's in java
