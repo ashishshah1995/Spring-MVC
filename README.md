@@ -18,11 +18,11 @@
 
 ## MVC
 
-1. Model objects- Contains your data, is like container to ship data between various part of MVC application
+1. **Model objects** Contains your data, is like container to ship data between various part of MVC application
 
-2. View templates are JSP pages or view page to render data- Common view template are JSP(Java Server pages) + JSTL(JSP standard tag library)
+2. **View** templates are JSP pages or view page to render data- Common view template are JSP(Java Server pages) + JSTL(JSP standard tag library)
 
-3. Controller classes are business/ processing logic - Handle the request, store/retrieve data, place data in model 
+3. **Controller** classes are business/ processing logic - Handle the request, store/retrieve data, place data in model 
 
 # Classes
 
