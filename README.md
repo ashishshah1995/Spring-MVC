@@ -98,13 +98,23 @@ In case of Free passes field if the user enters String instead of integer then b
 4. Update confirmation page
 
 # Output
+
+# HomePage
 ![1](https://user-images.githubusercontent.com/26305085/57001837-eb5d5f00-6b88-11e9-8714-ef9548736a17.PNG)
+
+# Hello World (Image 1)
 ![2](https://user-images.githubusercontent.com/26305085/57001838-eb5d5f00-6b88-11e9-9a79-4171ec55b6ab.PNG)
+# Hello World (Image 2)
 ![3](https://user-images.githubusercontent.com/26305085/57001831-eac4c880-6b88-11e9-80e5-25b8ca29200f.PNG)
+# Student (Image 1)
 ![4](https://user-images.githubusercontent.com/26305085/57001832-eac4c880-6b88-11e9-9608-ee35248c3e6e.PNG)
+# Student (Image 2)
 ![5](https://user-images.githubusercontent.com/26305085/57001833-eac4c880-6b88-11e9-9316-144448b9ebcf.PNG)
+# Customer (Image 1)
 ![6](https://user-images.githubusercontent.com/26305085/57001834-eac4c880-6b88-11e9-920f-214c2e997bac.PNG)
+# Customer (Image 2)
 ![7](https://user-images.githubusercontent.com/26305085/57001835-eb5d5f00-6b88-11e9-8649-6bd1814511f8.PNG)
+# Customer (Image 3)
 ![8](https://user-images.githubusercontent.com/26305085/57001836-eb5d5f00-6b88-11e9-8c36-811e2b28fa25.PNG)
 
 
