@@ -90,7 +90,10 @@ In case of Free passes field if the user enters String instead of integer then b
 a - Create @CourseCode annotation
 
 b- Create CourseCodeConstraintValidator
+
 2. Add validation rule to customer class
+
 3. Display error messsages on html form
+
 4. Update confirmation page
 
