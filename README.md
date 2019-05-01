@@ -80,7 +80,9 @@ In jsp page if there is *path="firstName";*  then when form is loaded Spring MVC
 3. Perform validation to controller class
 4. Update confirmation page
 
-In case of Free passes field if the user enters String instead of integer then by using *@InitBinder* I created custom error message *@InitBinder* works as pre processor. Every web request that process through controller this code will execute first. We will use this to trim out string, removing leading and trailing white space, if string has whitespace  we trim it to null object
+In case of Free passes field if the user enters String instead of integer then by using **@InitBinder** I created custom error message
+
+**@InitBinder** works as pre processor. Every web request that process through controller this code will execute first. We will use this to trim out string, removing leading and trailing white space, if string has whitespace  we trim it to null object
 
 #### Development process for custom Validation
 1. Create custom validation rule
