@@ -18,7 +18,7 @@
 
 ## MVC
 
-1. **Model objects** Contains your data, is like container to ship data between various part of MVC application
+1. **Model objects** contains your data, is like container to ship data between various part of MVC application
 
 2. **View** templates are JSP pages or view page to render data- Common view template are JSP(Java Server pages) + JSTL(JSP standard tag library)
 
@@ -50,9 +50,9 @@
 
 1. Used form tags which support data binding
 
-2. *@ModelAttribute* is bean object to bind form data to java objects
+2. **@ModelAttribute** is bean object to bind form data to java objects
 
-3. Example of *path* 
+3. Understanding **path tag** 
 In jsp page if there is *path="firstName";*  then when form is loaded Spring MVC will call student.getFirstName() to populate form field, if null then field will be empty,  when form is submitted spring will call setter method student.setFirstName()
 
 ### Following Spring MVC form tags are used 
