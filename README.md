@@ -74,7 +74,7 @@ In jsp page if there is *path="firstName";*  then when form is loaded Spring MVC
 
 
 ### Adding Validation
-### Development process
+#### Development process
 1. Add validation rule to customer class
 2. Display error message to html forms
 3. Perform validation to controller class
